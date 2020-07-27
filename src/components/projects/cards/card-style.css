@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+/* the content part */
+.long-left {
+    float: left;
+    width: 65%;
+    margin: 30px 40px 10px 40px;
+    color: white;
+    text-align: justify;
+}
+
+/* the content part */
+.long-right {
+    float: left;
+    width: 65%;
+    margin: 30px 40px 10px 40px;
+    color: white;
+    text-align: justify;
+}
+
+/* the image part */
+.short {
+    float: left;
+    width: 35%;
+}
+
+/* the project card */
+.project-container {
+    padding: 0px;
+    margin: 20px 10vw 20px 10vw;
+    border-radius: 12px;
+    display: inline-flex;
+    box-shadow: 0 3px 7px -1px rgba(#000, 0.1);
+    background-color: #262429;
+}
+
+/* project image */
+.project-image-left {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 0px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+/* project image */
+.project-image-right {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 0px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+/* time period */
+.period {
+    font-size: 14px;
+}
+
+/* responsiveness */
+@media screen and (max-width: 960px) {
+    .long,
+    .short {
+        width: 100%;
+        text-align: center;
+    }
+    .project-image {
+        margin: auto;
+    }
+}

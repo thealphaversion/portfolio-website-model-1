@@ -1,0 +1,13 @@
+* {
+    font-family: "Recursive", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.nav-items *:hover {
+    transform: scale(1.05);
+}
+
+.profile-img {
+    width: 30px;
+    margin: 0px 20px;
+    background-size: cover;
+}

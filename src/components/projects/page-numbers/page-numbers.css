@@ -1,0 +1,21 @@
+.page-number-list {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 80vw;
+}
+
+.page-number-list * {
+    margin: 10px;
+}
+
+.page-number-list-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.page-number-list-center * {
+    margin: 10px;
+}

@@ -1,0 +1,96 @@
+/* home page */
+
+body {
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+/* landing banner*/
+.landing-component {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.video-content {
+    z-index: 10;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 35, 51, 0.65);
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    color: #fff;
+}
+
+.nav-text {
+    color: #fff;
+}
+
+.home-img {
+    z-index: 10;
+    width: 15%;
+    margin: 0px 10px 40px 10px;
+    background-size: cover;
+}
+
+.social-icons * {
+    margin: 40px 20px;
+    color: #fff;
+}
+
+.social-icons *:hover {
+    transform: scale(1.05);
+}
+
+.scroll-down-icon * {
+    margin-top: 20px;
+    color: #b8b8b8;
+}
+
+.scroll-down-icon *:hover {
+    color: #fff;
+}
