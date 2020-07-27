@@ -1,4 +1,7 @@
+// package imports
 import React from "react";
+
+// component imports
 import LandingComponent from "../../components/home/landingComponent/landingComponent";
 
 class Home extends React.Component {

@@ -1,16 +1,21 @@
+// package imports
 import React, { useState } from "react";
+
+// component imports
 import ProjectHeader from "../../components/projects/header/project-header";
 import ProjectList from "../../components/projects/project-list";
 import PageNumbers from "../../components/projects/page-numbers/page-numbers";
 import ProjectText from "../../components/projects/text/page-text";
 import PreFooter from "../../components/projects/pre-footer/pre-footer";
 
+// css imports
 import "./project-style.css";
 
+// asset imports
 import HeaderImage from "../../assets/project-header-2.jpg";
 
 function Projects(props) {
-    const [projects, setProjects] = useState(props.projectData);
+    const projects = props.projectData;
     const [currentPage, setCurrentPage] = useState(1);
     const [projectsPerPage, setPostsPerPage] = useState(3);
 

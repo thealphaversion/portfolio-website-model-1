@@ -14,7 +14,7 @@ import Contact from "../contact";
 import homeData from "../../data/home";
 import aboutData from "../../data/about";
 import contactData from "../../data/contact";
-import ProjectData from "../../data/project-data.json";
+import ProjectData from "../../data/projects/project-data.json";
 
 // css imports
 import "./root.css";
