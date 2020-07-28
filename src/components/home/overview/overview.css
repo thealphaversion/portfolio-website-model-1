@@ -1,0 +1,36 @@
+.overview-container {
+    text-align: center;
+    margin: 0 15vw;
+    margin-top: 50px;
+}
+
+.image-container {
+    flex: 34%;
+}
+
+.content-container {
+    margin: 20px 15vw;
+    display: flex;
+}
+
+.text-container {
+    flex: 66%;
+    text-align: justify;
+    margin: 20px 5px;
+}
+
+.overview-image {
+    height: 500px;
+    justify-content: left;
+}
+
+.overview-text-element {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.overview-button-container {
+    text-align: center;
+    margin: 0 15vw;
+    margin-bottom: 50px;
+}

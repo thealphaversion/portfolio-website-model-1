@@ -21,15 +21,7 @@ function LandingComponent() {
             ></Image>
             <div className="video-content">
                 <h1>Hi, I am Aditya Chakraborti</h1>
-                <h3>Full Stack Developer</h3>
-                <h4>
-                    I am a software developer who’s recently graduated with a
-                    bachelor’s in computer engineering.
-                </h4>
-                <h4>
-                    I love building solutions to problems that are fascinating
-                    to me as well as those that serve a purpose for our society.
-                </h4>
+                <h3>I love building software that serves a purpose.</h3>
                 <Connect></Connect>
                 <ScrollDown></ScrollDown>
             </div>

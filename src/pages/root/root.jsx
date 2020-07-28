@@ -14,13 +14,17 @@ import Contact from "../contact";
 import homeData from "../../data/home";
 import aboutData from "../../data/about";
 import contactData from "../../data/contact";
-import ProjectData from "../../data/projects/project-data.json";
+import projectData from "../../data/projects/project-data.json";
+import overviewData from "../../data/about/overview.json";
 
 // css imports
 import "./root.css";
 
 // asset imports
 import ProfileImg from "../../assets/profile-img.jpg";
+
+// service imports
+import history from "./history";
 
 class Root extends React.Component {
     constructor(props) {
@@ -41,7 +45,7 @@ class Root extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Router>
+                <Router history={history}>
                     <Container className="p-0" fluid={true}>
                         <Navbar
                             className="bg-dark justify-content-between"
@@ -71,6 +75,9 @@ class Root extends React.Component {
                                     <Link className="nav-link" to="/resume">
                                         Resume
                                     </Link>
+                                    <Link className="nav-link" to="/about">
+                                        About
+                                    </Link>
                                     <Link className="nav-link" to="/contact">
                                         Contact
                                     </Link>
@@ -80,14 +87,21 @@ class Root extends React.Component {
                         <Route
                             path="/"
                             exact
-                            render={() => <Home></Home>}
+                            render={() => (
+                                <Home overviewData={overviewData}></Home>
+                            )}
                         ></Route>
                         <Route
                             path="/projects"
                             exact
                             render={() => (
-                                <Projects projectData={ProjectData}></Projects>
+                                <Projects projectData={projectData}></Projects>
                             )}
+                        ></Route>
+                        <Route
+                            path="/resume"
+                            exact
+                            render={() => <Contact></Contact>}
                         ></Route>
                         <Route
                             path="/about"
