@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 // component imports
-import ProjectHeader from "../../components/projects/header/project-header";
+import ProjectHeader from "../../components/common/header/project-header";
 import ProjectList from "../../components/projects/project-list";
 import PageNumbers from "../../components/projects/page-numbers/page-numbers";
 import ProjectText from "../../components/projects/text/page-text";
