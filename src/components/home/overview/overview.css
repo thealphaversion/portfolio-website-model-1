@@ -34,3 +34,7 @@
     margin: 0 15vw;
     margin-bottom: 50px;
 }
+
+.image-reference {
+    display: block;
+}

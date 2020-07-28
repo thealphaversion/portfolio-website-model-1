@@ -1,6 +1,6 @@
 // package imports
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 // component imports
@@ -53,7 +53,10 @@ class Root extends React.Component {
                             path="/"
                             exact
                             render={() => (
-                                <Home overviewData={overviewData}></Home>
+                                <Home
+                                    overviewData={overviewData}
+                                    projectData={projectData}
+                                ></Home>
                             )}
                         ></Route>
                         <Route

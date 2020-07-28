@@ -1,0 +1,27 @@
+.projects-section {
+    width: 100%;
+}
+
+.projects-overview-title {
+    text-align: center;
+    margin: 0 15vw;
+    color: white;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.more-projects {
+    text-align: center;
+    margin: 0 15vw;
+    padding-bottom: 50px;
+}
+
+.projects-overview-card-deck {
+    margin: 30px 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card-deck {
+    display: inline;
+}

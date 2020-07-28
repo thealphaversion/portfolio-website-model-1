@@ -51,7 +51,6 @@ const rightOriented = (text, period, title, image, stack, link) => {
             <div className="short">
                 <img
                     src={image}
-                    rounded={true}
                     className="project-image-right"
                     alt={title + " image"}
                 ></img>

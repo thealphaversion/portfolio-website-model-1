@@ -8,6 +8,7 @@ function ProjectList(props) {
                 if (index % 2 === 0) {
                     return (
                         <ProjectCard
+                            key={index}
                             side="left"
                             text={data.content}
                             period={data.timeline}
@@ -20,6 +21,7 @@ function ProjectList(props) {
                 } else {
                     return (
                         <ProjectCard
+                            key={index}
                             side="right"
                             text={data.content}
                             period={data.timeline}

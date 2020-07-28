@@ -17,28 +17,39 @@ function Overview(props) {
                         className="overview-image"
                         alt="overview"
                     ></img>
+                    <small className="image-reference">
+                        Photo by{" "}
+                        <a href="https://www.pexels.com/@andrew">
+                            Andrew Neel{" "}
+                        </a>
+                        from{" "}
+                        <a href="https://www.pexels.com/photo/silver-macbook-pro-on-tabletop-1967535/">
+                            Pexels
+                        </a>
+                        .
+                    </small>
                 </div>
                 <div className="text-container">
-                    <p>
+                    <div>
                         <h3>About Me</h3>
                         <h6 className="overview-text-element">{data.who}</h6>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <h3>My Goals</h3>
                         <h6 className="overview-text-element">
                             {data.objective}
                         </h6>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <h3>Current Status</h3>
                         <h6 className="overview-text-element">{data.status}</h6>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <h3>Tell us more</h3>
                         <h6 className="overview-text-element">
                             {data.description}
                         </h6>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className="overview-button-container">
