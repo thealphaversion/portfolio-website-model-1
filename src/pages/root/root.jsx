@@ -1,7 +1,7 @@
 // package imports
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Container, Navbar, Nav, Image } from "react-bootstrap";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 // component imports
 import Footer from "../../components/footer/footer";
@@ -9,6 +9,7 @@ import Home from "../home/home";
 import Projects from "../projects/projects";
 import About from "../about";
 import Contact from "../contact";
+import NavigationBar from "../../components/navigation-bar/navigation-bar";
 
 // data imports
 import homeData from "../../data/home";
@@ -24,7 +25,7 @@ import "./root.css";
 import ProfileImg from "../../assets/profile-img.jpg";
 
 // service imports
-import history from "./history";
+import history from "../../services/history";
 
 class Root extends React.Component {
     constructor(props) {
@@ -47,43 +48,7 @@ class Root extends React.Component {
             <React.Fragment>
                 <Router history={history}>
                     <Container className="p-0" fluid={true}>
-                        <Navbar
-                            className="bg-dark justify-content-between"
-                            variant="dark"
-                        >
-                            <Navbar.Brand href="/">
-                                <Image
-                                    src={ProfileImg}
-                                    roundedCircle={true}
-                                    className="profile-img"
-                                    alt="React Bootstrap logo"
-                                />
-                                Aditya Chakraborti
-                            </Navbar.Brand>
-                            <Navbar.Toggle
-                                className="border-0"
-                                aria-controls="navbar=toggle"
-                            ></Navbar.Toggle>
-                            <Navbar.Collapse>
-                                <Nav className="ml-auto nav-items">
-                                    <Link className="nav-link" to="/">
-                                        Home
-                                    </Link>
-                                    <Link className="nav-link" to="/projects">
-                                        Projects
-                                    </Link>
-                                    <Link className="nav-link" to="/resume">
-                                        Resume
-                                    </Link>
-                                    <Link className="nav-link" to="/about">
-                                        About
-                                    </Link>
-                                    <Link className="nav-link" to="/contact">
-                                        Contact
-                                    </Link>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Navbar>
+                        <NavigationBar ProfileImg={ProfileImg}></NavigationBar>
                         <Route
                             path="/"
                             exact

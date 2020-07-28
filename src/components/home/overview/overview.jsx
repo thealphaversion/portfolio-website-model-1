@@ -3,15 +3,8 @@ import { Button } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 import "./overview.css";
 
-// service imports
-import history from "../../../pages/root/history";
-
 function Overview(props) {
     const { data } = props;
-
-    const openAbout = (path) => {
-        history.push(path);
-    };
     return (
         <React.Fragment>
             <div className="overview-container">
@@ -19,7 +12,11 @@ function Overview(props) {
             </div>
             <div className="content-container">
                 <div className="image-container">
-                    <img src={data.img_url} className="overview-image"></img>
+                    <img
+                        src={data.img_url}
+                        className="overview-image"
+                        alt="overview"
+                    ></img>
                 </div>
                 <div className="text-container">
                     <p>
@@ -45,10 +42,7 @@ function Overview(props) {
                 </div>
             </div>
             <div className="overview-button-container">
-                <Button
-                    variant="outline-dark"
-                    onClick={() => openAbout("/about")}
-                >
+                <Button variant="outline-dark" href="/about">
                     {"Learn More >"}
                 </Button>
             </div>
@@ -56,4 +50,4 @@ function Overview(props) {
     );
 }
 
-export default Overview;
+export default withRouter(Overview);
