@@ -1,0 +1,12 @@
+.resume-intro-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.resume-button-container {
+    text-align: center;
+    margin: 0 15vw;
+    margin-top: 20px;
+}

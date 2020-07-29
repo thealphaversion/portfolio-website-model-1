@@ -19,8 +19,21 @@
     margin: 20px 5px;
 }
 
-.resume-button-container {
+.resume-projects-button-container {
     text-align: center;
-    margin: 0 15vw;
-    margin-bottom: 50px;
+    margin: 0px 15vw 30px 15vw;
+}
+
+/* responsiveness */
+@media screen and (max-width: 1024px) {
+    .resume-content-headin,
+    .resume-content-data {
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    .resume-content {
+        display: block;
+        text-align: center;
+    }
 }

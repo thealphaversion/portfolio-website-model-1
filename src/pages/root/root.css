@@ -1,5 +1,11 @@
 * {
     font-family: "Recursive", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 .nav-items *:hover {
@@ -10,4 +16,10 @@
     width: 30px;
     margin: 0px 20px;
     background-size: cover;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

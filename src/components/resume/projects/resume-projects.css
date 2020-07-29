@@ -1,18 +1,8 @@
-.stack-list {
-    list-style-type: none;
-    font-size: large;
-}
-
-.stack-inline-flex {
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.stack-inline {
-    display: inline;
-    flex-direction: row;
-}
-
 .resume-projects {
     margin-bottom: 20px;
+}
+
+.project-stack {
+    display: inline;
+    margin: 0px 10px;
 }

@@ -10,18 +10,14 @@ function ResumeProjects(props) {
         <div className="resume-projects">
             <h3>{projects.title}</h3>
             <h5>{projects.description}</h5>
-            <h5 className="stack-inline-flex">
-                Tech Stack:{" "}
-                <ul className="stack-list stack-inline">
-                    {projects.stack.map((framework, index) => {
-                        return (
-                            <li key={index}>
-                                <h5>{framework}</h5>
-                            </li>
-                        );
-                    })}
-                </ul>
-            </h5>
+            <h5>Tech Stack:</h5>
+            {projects.stack.map((framework, index) => {
+                return (
+                    <h5 key={index} className="project-stack">
+                        {framework}
+                    </h5>
+                );
+            })}
         </div>
     );
 }

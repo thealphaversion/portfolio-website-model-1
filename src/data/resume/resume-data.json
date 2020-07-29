@@ -21,7 +21,7 @@
     "experience": [
         {
             "title": "Freelance Software Engineer",
-            "type": "Freeance",
+            "type": "Freelance",
             "timeline": "March 2020 - Present",
             "description": [
                 "Built a mobile app called SmartSeva for the aid of the elderly for my first client, where I proactively worked to exceed my client’s expectations."
@@ -67,7 +67,7 @@
             "stack": ["Flutter", "Flask"]
         }
     ],
-    "awards": [
+    "achievements": [
         "Winner of Smart India Hackathon, 2019, organized by the Government of India, under the problem statement ‘Invoice processing using RPA’.",
         "Winner of IET’s Hack-N-Code 2.0, 2018, organized by IET, MPSTME.",
         "Winner of Android Development Competition organized by the Computer Engineering Department in collaboration with the Network for the Open Web Mozilla Club."
@@ -90,12 +90,12 @@
         {
             "title": "A review of Security Challenges in Home Automation Systems",
             "publisher": "IEEE",
-            "loaction": "2019 IEEE International Conference on System, Computation, Automation, and Networking (ICSCAN)",
+            "medium": "2019 IEEE International Conference on System, Computation, Automation, and Networking (ICSCAN)",
             "doi": "10.1109/ICSCAN.2019.8878722"
         }
     ],
     "miscellaneous": [
-        "I served as the Head of Technology at Model United Nations Society, MPSTME.",
+        "Served as the Head of Technology at Model United Nations Society, MPSTME.",
         "I love football and I was a first-team player for my school football team."
     ]
 }

@@ -9,11 +9,11 @@ import ProjectOverview from "../../components/home/project-overview/project-over
 function Home(props) {
     const { overviewData, projectData } = props;
     return (
-        <React.Fragment>
+        <div className="home-page">
             <LandingComponent></LandingComponent>
             <Overview data={overviewData}></Overview>
             <ProjectOverview data={projectData}></ProjectOverview>
-        </React.Fragment>
+        </div>
     );
 }
 

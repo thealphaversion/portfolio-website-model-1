@@ -6,7 +6,11 @@ function NavigationBar(props) {
     const { ProfileImg } = props;
     return (
         <React.Fragment>
-            <Navbar className="bg-dark justify-content-between" variant="dark">
+            <Navbar
+                className="bg-dark justify-content-between"
+                variant="dark"
+                expand="lg"
+            >
                 <Navbar.Brand href="/">
                     <Image
                         src={ProfileImg}
