@@ -4,19 +4,20 @@ import { Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 // component imports
-import Footer from "../../components/footer/footer";
+import NavigationBar from "../../components/navigation-bar/navigation-bar";
 import Home from "../home/home";
 import Projects from "../projects/projects";
+import Resume from "../resume/resume";
 import About from "../about";
 import Contact from "../contact";
-import NavigationBar from "../../components/navigation-bar/navigation-bar";
+import Footer from "../../components/footer/footer";
 
 // data imports
-import homeData from "../../data/home";
 import aboutData from "../../data/about";
 import contactData from "../../data/contact";
 import projectData from "../../data/projects/project-data.json";
 import overviewData from "../../data/about/overview.json";
+import resumeData from "../../data/resume/resume-data.json";
 
 // css imports
 import "./root.css";
@@ -37,7 +38,6 @@ class Root extends React.Component {
                 { title: "About", path: "/about" },
                 { title: "Contact", path: "/contact" },
             ],
-            homeData,
             aboutData,
             contactData,
         };
@@ -69,7 +69,9 @@ class Root extends React.Component {
                         <Route
                             path="/resume"
                             exact
-                            render={() => <Contact></Contact>}
+                            render={() => (
+                                <Resume resumeData={resumeData}></Resume>
+                            )}
                         ></Route>
                         <Route
                             path="/about"

@@ -1,0 +1,8 @@
+.skill-subsection {
+    display: inline;
+}
+
+.skill-list {
+    list-style-type: none;
+    font-size: large;
+}

@@ -12,7 +12,7 @@ function ProjectsCardDeck(props) {
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Subtitle>{project.stack}</Card.Subtitle>
                 </Card.Body>
-                <Card.Body>
+                <Card.Body className="project-overview-card-text">
                     <Card.Text>{project.content}</Card.Text>
                 </Card.Body>
                 <Card.Footer>

@@ -7,7 +7,6 @@ import "./projects-overview.css";
 
 function ProjectsOverview(props) {
     const data = props.data.slice(0, 3);
-    console.log(data);
     return (
         <div className="projects-section bg-dark">
             <div className="projects-overview-title">

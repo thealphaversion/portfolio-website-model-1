@@ -5,7 +5,7 @@ function ProjectText() {
     return (
         <React.Fragment>
             <div className="intro-text">
-                <h4>Hi, this is my projects section.</h4>
+                <h4>Hi, these are my projects.</h4>
             </div>
             <div className="intro-text">
                 <h5>

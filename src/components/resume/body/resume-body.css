@@ -1,0 +1,26 @@
+.resume-body {
+    text-align: center;
+    margin: 0 15vw;
+    margin-top: 50px;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-content-heading {
+    flex: 30%;
+    text-align: left;
+}
+
+.resume-content-data {
+    flex: 70%;
+    text-align: justify;
+    margin: 20px 5px;
+}
+
+.resume-button-container {
+    text-align: center;
+    margin: 0 15vw;
+    margin-bottom: 50px;
+}

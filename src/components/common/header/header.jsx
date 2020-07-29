@@ -1,12 +1,13 @@
 import React from "react";
 
-import "./project-header.css";
+import "./header.css";
 
 function ProjectHeader(props) {
+    const { lite } = props;
     return (
         <div>
             <div className="header-container">
-                <div className="header-title">
+                <div className={lite ? "header-title-lite" : "header-title"}>
                     <h1 className="header-title-text">{props.title}</h1>
                 </div>
                 <img

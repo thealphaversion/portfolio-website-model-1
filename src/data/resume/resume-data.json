@@ -1,0 +1,101 @@
+{
+    "education": [
+        {
+            "course": "Bachelor of Technology",
+            "major": "Computer Engineering",
+            "institute": "Mukesh Patel School of Technology Management and Engineering",
+            "university": "Narsee Monjee Institue of Management Studies",
+            "location": "Mumbai, India",
+            "graduation": "2020",
+            "cgpa": "3.1 on a scale of 4.0"
+        }
+    ],
+    "skills": {
+        "languages": ["Dart, Javascript, Java, Python"],
+        "frontend": ["Flutter, React.js"],
+        "backend": ["Node.js, Firebase, Flask"],
+        "databases": ["MongoDB, MySQL"],
+        "vcs": ["git"],
+        "cloud": ["Heroku, Google Cloud Platform"]
+    },
+    "experience": [
+        {
+            "title": "Freelance Software Engineer",
+            "type": "Freeance",
+            "timeline": "March 2020 - Present",
+            "description": [
+                "Built a mobile app called SmartSeva for the aid of the elderly for my first client, where I proactively worked to exceed my client’s expectations."
+            ],
+            "stack": ["Flutter", "Firebase", "Node.js"]
+        },
+        {
+            "company": "Wardrobe Global Pvt. Ltd",
+            "title": "Software Engineer",
+            "type": "Contract",
+            "timeline": "May 2019 - May 2020",
+            "description": [
+                "Worked across the stack, building a social platform for fashion enthusiasts, influencers, and people in need of fashion inspiration.",
+                "Designed, planned, and developed the WARDROBE app from the ground up, mostly working on the front end of the cross-platform app with Flutter, handling API calls, transitions, routing, and providing an intuitive user experience."
+            ],
+            "stack": ["Flutter", "Firebase"]
+        },
+        {
+            "company": "Aasra NGO ",
+            "title": "Web Developer Intern",
+            "type": "Internship",
+            "timeline": "December 2018 - January 2019",
+            "description": [
+                "Successfully assisted efforts to revamp the NGO's website while working with HTML, CSS, Javascript, Bootstrap, and jQuery."
+            ],
+            "stack": ["HTML", "Javascript", "CSS", "Bootstrap"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "QuickGrab",
+            "description": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots. It gives local shops an online presence by providing a platform for them to serve customers without the need for excessive logistics.",
+            "stack": ["Flutter", "Firebase"]
+        },
+        {
+            "title": "Gilbreth",
+            "description": "Given a flowchart according to the defined syntax, Gilbreth detects, recognizes, and parses the flowchart into a traversable abstract syntax tree.",
+            "stack": ["Python", "Flask", "yolo_mark", "Google Cloud Vision"]
+        },
+        {
+            "title": "DeleGo for Mumbai MUN 2019",
+            "description": "DeleGo helps organize data about delegates, panels, and hosts while automating the registration, food coupon system, and other pipelines for the event.",
+            "stack": ["Flutter", "Flask"]
+        }
+    ],
+    "awards": [
+        "Winner of Smart India Hackathon, 2019, organized by the Government of India, under the problem statement ‘Invoice processing using RPA’.",
+        "Winner of IET’s Hack-N-Code 2.0, 2018, organized by IET, MPSTME.",
+        "Winner of Android Development Competition organized by the Computer Engineering Department in collaboration with the Network for the Open Web Mozilla Club."
+    ],
+    "certifications": [
+        {
+            "issuer": "Udemy",
+            "title": "Node.js: The Complete Guide to Build RESTful APIs",
+            "date": "May, 2020",
+            "link": "http://ude.my/UC-ca01c387-4eb0-477d-bbfd-26fc562f8166"
+        },
+        {
+            "issuer": "Dell",
+            "title": "EMC Academic Associate, Cloud Infrastructure and Services",
+            "date": "November, 2019",
+            "link": "https://drive.google.com/open?id=1JsagrrOmFUAGFcvHYnHxBMulQWjPBokR"
+        }
+    ],
+    "publications": [
+        {
+            "title": "A review of Security Challenges in Home Automation Systems",
+            "publisher": "IEEE",
+            "loaction": "2019 IEEE International Conference on System, Computation, Automation, and Networking (ICSCAN)",
+            "doi": "10.1109/ICSCAN.2019.8878722"
+        }
+    ],
+    "miscellaneous": [
+        "I served as the Head of Technology at Model United Nations Society, MPSTME.",
+        "I love football and I was a first-team player for my school football team."
+    ]
+}
