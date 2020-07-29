@@ -26,7 +26,7 @@ function ProjectsOverview(props) {
             </div>
             <div className="more-projects">
                 <Button variant="outline-light" href="/projects">
-                    {"See More Projects >"}
+                    {"See More Projects"}
                 </Button>
             </div>
         </div>

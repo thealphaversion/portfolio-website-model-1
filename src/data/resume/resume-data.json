@@ -97,5 +97,13 @@
     "miscellaneous": [
         "Served as the Head of Technology at Model United Nations Society, MPSTME.",
         "I love football and I was a first-team player for my school football team."
+    ],
+    "skills_minified": [
+        "Flutter",
+        "React.js",
+        "Node.js",
+        "git",
+        "MongoDB",
+        "Firebase"
     ]
 }

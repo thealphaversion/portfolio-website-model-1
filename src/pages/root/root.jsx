@@ -56,6 +56,7 @@ class Root extends React.Component {
                                 <Home
                                     overviewData={overviewData}
                                     projectData={projectData}
+                                    resumeData={resumeData}
                                 ></Home>
                             )}
                         ></Route>

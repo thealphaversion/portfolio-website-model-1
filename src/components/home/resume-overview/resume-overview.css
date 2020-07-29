@@ -1,0 +1,52 @@
+.resume-overview-container {
+    text-align: center;
+}
+
+.resume-overview-title {
+    margin: 50px 10vw 20px 10vw;
+}
+
+.resume-overview-primary {
+    margin: 0px 10% 20px 10%;
+    border: solid;
+}
+
+.resume-body {
+    text-align: center;
+    margin: 0 15vw;
+    margin-top: 50px;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-content-heading {
+    flex: 30%;
+    text-align: left;
+}
+
+.resume-content-data {
+    flex: 70%;
+    text-align: justify;
+    margin: 20px 5px;
+}
+
+.resume-projects-button-container {
+    text-align: center;
+    margin: 0px 15vw 30px 15vw;
+}
+
+/* responsiveness */
+@media screen and (max-width: 1024px) {
+    .resume-content-headin,
+    .resume-content-data {
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    .resume-content {
+        display: block;
+        text-align: center;
+    }
+}

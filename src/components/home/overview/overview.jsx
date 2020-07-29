@@ -54,7 +54,7 @@ function Overview(props) {
             </div>
             <div className="overview-button-container">
                 <Button variant="outline-dark" href="/about">
-                    {"Learn More >"}
+                    {"Learn More"}
                 </Button>
             </div>
         </React.Fragment>
