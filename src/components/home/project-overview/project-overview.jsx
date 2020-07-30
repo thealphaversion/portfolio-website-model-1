@@ -5,8 +5,11 @@ import { withRouter } from "react-router-dom";
 import ProjectsCardDeck from "./project-card-deck";
 import "./projects-overview.css";
 
+import shuffle from "../../../services/shuffle-array";
+
 function ProjectsOverview(props) {
-    const data = props.data.slice(0, 3);
+    let data = props.data.slice(1, 4);
+    data = shuffle(data);
     return (
         <div className="projects-section bg-dark">
             <div className="projects-overview-title">

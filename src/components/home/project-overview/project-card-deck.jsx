@@ -7,7 +7,7 @@ function ProjectsCardDeck(props) {
     return (
         <React.Fragment>
             <Card>
-                <Card.Img variant="top" src={project.img_src} />
+                <Card.Img variant="top" src={project.img_src}></Card.Img>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Subtitle>{project.stack}</Card.Subtitle>

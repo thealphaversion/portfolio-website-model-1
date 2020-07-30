@@ -1,47 +1,65 @@
 [
     {
         "id": "pt0001",
-        "title": "Quick Grab",
-        "timeline": "May, 2020 to June, 2020",
-        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business.",
-        "link": "link",
-        "img_src": "https://i.imgur.com/7WfgNyd.jpg",
-        "stack": "Flutter, Firebase"
+        "title": "Personal Portfolio Website",
+        "timeline": "July, 2020 to July, 2020",
+        "content": "I wanted to build a portfolio website, and I wanted to learn React.js. So I put these two together and built this portfolio website.",
+        "link": "https://drive.google.com/file/d/18fyEP5rNXQtXeFG4rJnzbSIo67ytM-Z_/view?usp=sharing",
+        "img_src": "https://i.imgur.com/4i5Proa.jpg",
+        "stack": "React.js, CSS, HTML"
     },
     {
         "id": "pt0002",
-        "title": "Quick Grab 2",
+        "title": "Quick Grab",
         "timeline": "May, 2020 to June, 2020",
-        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business.",
-        "link": "link",
-        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business. QuickGrab also gives local shops an online presence by providing a platform for them to serve customers online without the logistical barrier that comes with online shopping.",
+        "link": "https://drive.google.com/file/d/18fyEP5rNXQtXeFG4rJnzbSIo67ytM-Z_/view?usp=sharing",
+        "img_src": "https://i.imgur.com/cwo6J4u.jpg",
         "stack": "Flutter, Firebase"
     },
     {
         "id": "pt0003",
-        "title": "Quick Grab 3",
-        "timeline": "May, 2020 to June, 2020",
-        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business.",
-        "link": "link",
-        "img_src": "https://i.imgur.com/7WfgNyd.jpg",
-        "stack": "Flutter, Firebase"
+        "title": "Gilbreth",
+        "timeline": "September, 2019 to April, 2020",
+        "content": "Gilbreth is my B. Tech. final year project. Given a flowchart according to the defined syntax, Gilbreth detects, recognizes and parses the flowchart into a traversable abstract syntax tree.",
+        "link": "https://drive.google.com/file/d/1oQn5KbQaVy-PCi23e-3Z7-no7z2FHMG7/view?usp=sharing",
+        "img_src": "https://i.imgur.com/uXS332d.jpg",
+        "stack": "Python, Flask, yolo_mark, darknet, Google Cloud Vision"
     },
     {
         "id": "pt0004",
-        "title": "Quick Grab 4",
-        "timeline": "May, 2020 to June, 2020",
-        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business.",
-        "link": "link",
-        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
-        "stack": "Flutter, Firebase"
+        "title": "Delgo for MumbaiMUN 2019",
+        "timeline": "September, 2019 to October, 2019",
+        "content": "DeleGo helps organize data about delegates, panels, and hosts while automating registration, food coupon system and other pipelines for the event. An event management app at heart, DeleGo was built to not only automate the event processes but also digitally transform Model UN conferences by moving on-paper procedures to your smartphones.",
+        "link": "https://play.google.com/store/apps/details?id=com.mun.delego&hl=en_IN",
+        "img_src": "https://i.imgur.com/AKZAOlN.jpg",
+        "stack": "Flutter, Flask, MongoDB"
     },
     {
         "id": "pt0005",
-        "title": "Quick Grab 5",
-        "timeline": "May, 2020 to June, 2020",
-        "content": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots.In essence, we're trying to get people to go to shops in slots. This, if properly done, can reduce the number of people at a particular shop at a time without negatively impacting the business.",
-        "link": "link",
-        "img_src": "https://i.imgur.com/7WfgNyd.jpg",
-        "stack": "Flutter, Firebase"
+        "title": "A-Practical-Guide-To-Python",
+        "timeline": "December, 2019 to Present",
+        "content": "A-Practical-Guide-To-Python started out as my team at MumbaiMUN to learn and discover more about python, practically. It has now turned into a journey for me and anybody interested to learn about python, practically, with the end goal of learning and developing a RESTful mini-project.",
+        "link": "https://github.com/thealphaversion/A-Practical-Guide-To-Python",
+        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "stack": "Python, Flask"
+    },
+    {
+        "id": "pt0006",
+        "title": "The Lounge",
+        "timeline": "April, 2019 to April, 2019",
+        "content": "A mini-project to allow users to anonymously broadcast messages to all other users who are online at the same time. It was built to demonstrate how web sockets work.",
+        "link": "https://github.com/thealphaversion/TheLounge",
+        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "stack": "Python, Flask, Flask-SocketIO"
+    },
+    {
+        "id": "pt0007",
+        "title": "Countripedia",
+        "timeline": "January, 2018 to February, 2018",
+        "content": "Countripedia is a mini atlas that gives you information about all the countries in the world. An education-oriented app, Countripedia was designed for students, enthusiasts, and tourists alike. Countripedia is developed on android and uses the various REST APIs to get the data for different countries.",
+        "link": "https://play.google.com/store/apps/details?id=anotherappdev.countripedia&hl=en_IN",
+        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "stack": "Android"
     }
 ]

@@ -17,7 +17,7 @@ import HeaderImage from "../../assets/project-header-2.jpg";
 function Projects(props) {
     const projects = props.projectData;
     const [currentPage, setCurrentPage] = useState(1);
-    const [projectsPerPage, setPostsPerPage] = useState(3);
+    const [projectsPerPage, setPostsPerPage] = useState(4);
 
     // Get current posts
     const indexLastProject = currentPage * projectsPerPage;

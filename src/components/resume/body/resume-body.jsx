@@ -88,7 +88,7 @@ function ResumeBody(props) {
             </div>
             <div className="resume-projects-button-container">
                 <Button variant="outline-dark" href="/projects">
-                    {"See more projects >"}
+                    {"See more projects"}
                 </Button>
             </div>
             {/* certifications */}

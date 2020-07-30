@@ -26,7 +26,7 @@
 
 /* responsiveness */
 @media screen and (max-width: 1024px) {
-    .resume-content-headin,
+    .resume-content-heading,
     .resume-content-data {
         width: 100%;
         flex: 100%;
