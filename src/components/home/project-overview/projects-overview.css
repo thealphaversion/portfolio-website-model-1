@@ -32,15 +32,7 @@
 
 /* responsiveness */
 
-@media screen and (max-width: 800px) {
-    .projects-overview-card-deck {
-        margin: 30px 3vw;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 880px) {
     .projects-overview-card-deck {
         margin: 30px 0vw;
         display: flex;

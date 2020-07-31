@@ -21,7 +21,7 @@
         "id": "pt0003",
         "title": "Gilbreth",
         "timeline": "September, 2019 to April, 2020",
-        "content": "Gilbreth is my B. Tech. final year project. Given a flowchart according to the defined syntax, Gilbreth detects, recognizes and parses the flowchart into a traversable abstract syntax tree.",
+        "content": "Given a flowchart according to the defined syntax, Gilbreth detects, recognizes and parses the flowchart into a traversable abstract syntax tree which can be then translated into code.",
         "link": "https://drive.google.com/file/d/1oQn5KbQaVy-PCi23e-3Z7-no7z2FHMG7/view?usp=sharing",
         "img_src": "https://i.imgur.com/uXS332d.jpg",
         "stack": "Python, Flask, yolo_mark, darknet, Google Cloud Vision"
