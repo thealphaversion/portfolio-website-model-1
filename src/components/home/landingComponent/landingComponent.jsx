@@ -1,12 +1,22 @@
+// package imports
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-import LandingVideo from "../../../assets/landing-video-code-blur.mp4";
-import { Connect, ScrollDown } from "../../../constants/icons";
-import ProfileImage from "../../../assets/profile-img.jpg";
 
+// component imports
+import { Connect, ScrollDown } from "../../../constants/icons";
+
+// css imports
 import "./landingComponent.css";
 
+// asset imports
+import LandingVideo from "../../../assets/landing-video-code-blur.mp4";
+
+// service imports
+import assets from "../../../services/assets.json";
+
 function LandingComponent() {
+    const { profile_img } = assets;
+
     return (
         <div className="landing-component">
             <Container fluid={true} className="video-container">
@@ -17,7 +27,7 @@ function LandingComponent() {
             <Image
                 className="home-img"
                 roundedCircle={true}
-                src={ProfileImage}
+                src={profile_img}
             ></Image>
             <div className="video-content">
                 <h1>Hi, I am Aditya Chakraborti</h1>

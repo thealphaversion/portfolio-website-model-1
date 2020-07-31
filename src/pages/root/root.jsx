@@ -8,7 +8,7 @@ import NavigationBar from "../../components/navigation-bar/navigation-bar";
 import Home from "../home/home";
 import Projects from "../projects/projects";
 import Resume from "../resume/resume";
-import Blog from "../blog/blog";
+// import Blog from "../blog/blog";
 import Contact from "../contact/contact";
 import Footer from "../../components/footer/footer";
 
@@ -22,11 +22,9 @@ import resumeData from "../../data/resume/resume-data.json";
 // css imports
 import "./root.css";
 
-// asset imports
-import ProfileImg from "../../assets/profile-img.jpg";
-
 // service imports
 import history from "../../services/history";
+import assets from "../../services/assets.json";
 
 class Root extends React.Component {
     constructor(props) {
@@ -48,7 +46,9 @@ class Root extends React.Component {
             <React.Fragment>
                 <Router history={history}>
                     <Container className="p-0" fluid={true}>
-                        <NavigationBar ProfileImg={ProfileImg}></NavigationBar>
+                        <NavigationBar
+                            ProfileImg={assets.profile_img}
+                        ></NavigationBar>
                         <Route
                             path="/"
                             exact

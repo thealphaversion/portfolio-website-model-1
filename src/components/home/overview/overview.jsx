@@ -1,6 +1,9 @@
+// package imports
 import React from "react";
 import { Button } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
+
+// css imports
 import "./overview.css";
 
 function Overview(props) {

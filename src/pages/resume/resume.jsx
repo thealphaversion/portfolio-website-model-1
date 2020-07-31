@@ -6,14 +6,16 @@ import Header from "../../components/common/header/header";
 import ResumeBody from "../../components/resume/body/resume-body";
 import ResumeText from "../../components/resume/text/resume-text";
 
-// asset imports
-import ResumeCover from "../../assets/resume-cover-4.jpg";
+// service imports
+import assets from "../../services/assets.json";
 
 function Resume(props) {
+    const { resume_header } = assets;
+
     const data = props.resumeData;
     return (
         <div>
-            <Header image={ResumeCover} title={"Resume"} lite={true}></Header>
+            <Header image={resume_header} title={"Resume"} lite={true}></Header>
             <ResumeText></ResumeText>
             <ResumeBody data={data}></ResumeBody>
         </div>

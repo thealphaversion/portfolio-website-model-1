@@ -11,10 +11,12 @@ import PreFooter from "../../components/projects/pre-footer/pre-footer";
 // css imports
 import "./project-style.css";
 
-// asset imports
-import HeaderImage from "../../assets/project-header-2.jpg";
+// service imports
+import assets from "../../services/assets.json";
 
 function Projects(props) {
+    const { projects_header } = assets;
+
     const projects = props.projectData;
     const [currentPage, setCurrentPage] = useState(1);
     const [projectsPerPage, setPostsPerPage] = useState(4);
@@ -29,7 +31,7 @@ function Projects(props) {
 
     return (
         <div className="project-bg">
-            <Header image={HeaderImage} title={"Projects"}></Header>
+            <Header image={projects_header} title={"Projects"}></Header>
             <ProjectText></ProjectText>
             <PageNumbers
                 totalPages={projects.length}

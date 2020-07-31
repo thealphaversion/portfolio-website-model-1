@@ -1,4 +1,7 @@
+// package imports
 import React from "react";
+
+// css imports
 import "./card-style.css";
 
 const leftOriented = (text, period, title, image, stack, link) => {

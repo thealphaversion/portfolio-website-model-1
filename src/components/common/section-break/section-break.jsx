@@ -1,4 +1,7 @@
+// package imports
 import React from "react";
+
+// css imports
 import "./section-break.css";
 
 function SectionBreak() {

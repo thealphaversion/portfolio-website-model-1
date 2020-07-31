@@ -1,4 +1,7 @@
+// package imports
 import React from "react";
+
+// component imports
 import ProjectCard from "./cards/project-card-archive";
 
 function ProjectList(props) {

@@ -1,6 +1,9 @@
+// package imports
 import React from "react";
-import "./card-style.css";
 import { Container, Image, Card } from "react-bootstrap";
+
+// css imports
+import "./card-style.css";
 
 function ProjectCard(props) {
     const { side, text, period, title, image, stack, link } = props;

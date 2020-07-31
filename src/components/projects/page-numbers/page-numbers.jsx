@@ -1,6 +1,9 @@
+// package imports
 import React from "react";
-import "./page-numbers.css";
 import { Navbar, Row, Button } from "react-bootstrap";
+
+// css imports
+import "./page-numbers.css";
 
 function PageNumbers(props) {
     const {

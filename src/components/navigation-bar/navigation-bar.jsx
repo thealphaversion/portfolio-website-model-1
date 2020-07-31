@@ -1,3 +1,4 @@
+// package imports
 import React from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import { withRouter } from "react-router-dom";

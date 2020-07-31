@@ -1,10 +1,15 @@
+// package imports
 import React from "react";
 import { Button, CardDeck } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
+// component imports
 import ProjectsCardDeck from "./project-card-deck";
+
+// css imports
 import "./projects-overview.css";
 
+// service imports
 import shuffle from "../../../services/shuffle-array";
 
 function ProjectsOverview(props) {

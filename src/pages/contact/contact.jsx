@@ -9,11 +9,16 @@ import ContactBody from "../../components/contact/contact-body";
 // css imports
 import "./contact.css";
 
+// service imports
+import assets from "../../services/assets.json";
+
 function Contact(props) {
+    const { contact_header } = assets;
+
     return (
         <div className="contact bg-dark">
             <Header
-                image={"https://i.imgur.com/EUXQxro.jpg"}
+                image={contact_header}
                 title={"Contact Me"}
                 lite={false}
             ></Header>

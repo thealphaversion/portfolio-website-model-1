@@ -1,5 +1,8 @@
+// package imports
 import React from "react";
 import { Card } from "react-bootstrap";
+
+// css imports
 import "./projects-overview.css";
 
 function ProjectsCardDeck(props) {

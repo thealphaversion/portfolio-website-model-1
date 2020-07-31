@@ -1,4 +1,7 @@
+// package imports
 import React from "react";
+
+// css imports
 import "./pre-footer.css";
 
 function PreFooter(props) {
