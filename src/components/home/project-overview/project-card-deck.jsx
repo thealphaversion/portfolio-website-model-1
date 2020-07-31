@@ -11,18 +11,21 @@ function ProjectsCardDeck(props) {
         <React.Fragment>
             <Card>
                 <Card.Img variant="top" src={project.img_src}></Card.Img>
-                <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
-                    <Card.Subtitle>{project.stack}</Card.Subtitle>
-                </Card.Body>
-                <Card.Body className="project-overview-card-text">
-                    <Card.Text>{project.content}</Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">
-                        Check out the project <a href={project.link}>here</a>.
-                    </small>
-                </Card.Footer>
+                <div className="project-overview-card-body">
+                    <Card.Body>
+                        <Card.Title>{project.title}</Card.Title>
+                        <Card.Subtitle>{project.stack}</Card.Subtitle>
+                    </Card.Body>
+                    <Card.Body className="project-overview-card-text">
+                        <Card.Text>{project.content}</Card.Text>
+                        <div>
+                            <Card.Text className="text-muted">
+                                Check out the project{" "}
+                                <a href={project.link}>here</a>.
+                            </Card.Text>
+                        </div>
+                    </Card.Body>
+                </div>
             </Card>
         </React.Fragment>
     );

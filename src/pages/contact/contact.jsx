@@ -23,7 +23,7 @@ function Contact(props) {
                 lite={false}
             ></Header>
             <div className="contact-body-form-container">
-                <ContactBody></ContactBody>
+                <ContactBody history={props.history}></ContactBody>
             </div>
             <div className="contact-body">
                 <ContactMe></ContactMe>

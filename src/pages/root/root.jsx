@@ -77,7 +77,7 @@ class Root extends React.Component {
                         <Route
                             path="/contact"
                             exact
-                            render={() => <Contact></Contact>}
+                            render={() => <Contact history={history}></Contact>}
                         ></Route>
                     </Container>
                 </Router>

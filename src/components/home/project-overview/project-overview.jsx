@@ -1,6 +1,6 @@
 // package imports
 import React from "react";
-import { Button, CardDeck } from "react-bootstrap";
+import { Button, CardColumns } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
 // component imports
@@ -21,7 +21,7 @@ function ProjectsOverview(props) {
                 <h1>Projects</h1>
             </div>
             <div className="projects-overview-card-deck">
-                <CardDeck className="card-deck">
+                <CardColumns className="card-deck">
                     {data.map((project, index) => {
                         return (
                             <ProjectsCardDeck
@@ -30,7 +30,7 @@ function ProjectsOverview(props) {
                             ></ProjectsCardDeck>
                         );
                     })}
-                </CardDeck>
+                </CardColumns>
             </div>
             <div className="more-projects">
                 <Button variant="outline-light" href="/projects">

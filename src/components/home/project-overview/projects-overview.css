@@ -17,33 +17,16 @@
 }
 
 .projects-overview-card-deck {
-    margin: 30px 18vw;
-    display: flex;
+    margin: 30px 15vw;
     justify-content: center;
-}
-
-.card-deck {
-    display: inline;
 }
 
 .project-overview-card-text {
     text-align: justify;
 }
 
-/* responsiveness */
-
-@media screen and (max-width: 880px) {
-    .projects-overview-card-deck {
-        margin: 30px 0vw;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    .projects-overview-card-deck {
-        margin: 30px 14vw;
-        display: flex;
-        justify-content: center;
-    }
+.project-overview-card-body {
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto;
 }
