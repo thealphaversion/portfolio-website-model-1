@@ -5,3 +5,8 @@
     justify-content: center;
     text-align: center;
 }
+
+.contact-body-form-container {
+    padding: 20px 20vw;
+    color: white;
+}
