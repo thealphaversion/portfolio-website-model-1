@@ -3,4 +3,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
+}
+
+.intro-subtext {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+/* responsiveness */
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 1500px) {
 }

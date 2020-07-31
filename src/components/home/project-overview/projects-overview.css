@@ -17,7 +17,7 @@
 }
 
 .projects-overview-card-deck {
-    margin: 30px 20vw;
+    margin: 30px 18vw;
     display: flex;
     justify-content: center;
 }
@@ -28,4 +28,30 @@
 
 .project-overview-card-text {
     text-align: justify;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 800px) {
+    .projects-overview-card-deck {
+        margin: 30px 3vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .projects-overview-card-deck {
+        margin: 30px 0vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .projects-overview-card-deck {
+        margin: 30px 14vw;
+        display: flex;
+        justify-content: center;
+    }
 }

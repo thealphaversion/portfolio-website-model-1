@@ -7,7 +7,7 @@ function ProjectText() {
             <div className="intro-text">
                 <h4>Hi, these are my projects.</h4>
             </div>
-            <div className="intro-text">
+            <div className="intro-subtext">
                 <h5>
                     Over the years I've built a wide variety of projects. And
                     I'm always building more.

@@ -8,8 +8,8 @@ import NavigationBar from "../../components/navigation-bar/navigation-bar";
 import Home from "../home/home";
 import Projects from "../projects/projects";
 import Resume from "../resume/resume";
-import About from "../about";
-import Contact from "../contact";
+import Blog from "../blog/blog";
+import Contact from "../contact/contact";
 import Footer from "../../components/footer/footer";
 
 // data imports
@@ -73,11 +73,6 @@ class Root extends React.Component {
                             render={() => (
                                 <Resume resumeData={resumeData}></Resume>
                             )}
-                        ></Route>
-                        <Route
-                            path="/about"
-                            exact
-                            render={() => <About></About>}
                         ></Route>
                         <Route
                             path="/contact"

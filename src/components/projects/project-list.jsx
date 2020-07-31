@@ -3,7 +3,7 @@ import ProjectCard from "./cards/project-card-archive";
 
 function ProjectList(props) {
     return (
-        <div>
+        <React.Fragment>
             {props.projectData.map((data, index) => {
                 if (index % 2 === 0) {
                     return (
@@ -33,7 +33,7 @@ function ProjectList(props) {
                     );
                 }
             })}
-        </div>
+        </React.Fragment>
     );
 }
 

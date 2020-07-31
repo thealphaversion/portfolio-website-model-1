@@ -19,3 +19,13 @@
 .page-number-list-center * {
     margin: 10px;
 }
+
+/* responsiveness */
+@media screen and (max-width: 960px) {
+    .page-number-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+}

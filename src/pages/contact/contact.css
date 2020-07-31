@@ -1,0 +1,7 @@
+.contact-body {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
