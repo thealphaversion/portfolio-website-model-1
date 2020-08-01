@@ -46,7 +46,10 @@ class ContactBody extends React.Component {
             message: this.state.message,
         };
         axios
-            .post("http://localhost:5000/contact", data)
+            .post(
+                "https://thealphaversion-website-server.herokuapp.com/contact",
+                data
+            )
             .then((res) => {
                 this.setState({ sent: true }, this.resetForm());
             })
