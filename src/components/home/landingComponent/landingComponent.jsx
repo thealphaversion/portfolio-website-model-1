@@ -14,8 +14,9 @@ import LandingVideo from "../../../assets/landing-video-code-blur.mp4";
 // service imports
 import assets from "../../../services/assets.json";
 
-function LandingComponent() {
+function LandingComponent(props) {
     const { profile_img } = assets;
+    const { onDownPress } = props;
 
     return (
         <div className="landing-component">
@@ -33,7 +34,6 @@ function LandingComponent() {
                 <h1>Hi, I am Aditya Chakraborti</h1>
                 <h3>I love building software that serves a purpose.</h3>
                 <Connect></Connect>
-                <ScrollDown></ScrollDown>
             </div>
         </div>
     );

@@ -41,7 +41,7 @@
         "timeline": "December, 2019 to Present",
         "content": "A-Practical-Guide-To-Python started out as my team at MumbaiMUN to learn and discover more about python, practically. It has now turned into a journey for me and anybody interested to learn about python, practically, with the end goal of learning and developing a RESTful mini-project.",
         "link": "https://github.com/thealphaversion/A-Practical-Guide-To-Python",
-        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "img_src": "https://i.imgur.com/8wf9A1G.jpg",
         "stack": "Python, Flask"
     },
     {
@@ -59,7 +59,7 @@
         "timeline": "January, 2018 to February, 2018",
         "content": "Countripedia is a mini atlas that gives you information about all the countries in the world. An education-oriented app, Countripedia was designed for students, enthusiasts, and tourists alike. Countripedia is developed on android and uses the various REST APIs to get the data for different countries.",
         "link": "https://play.google.com/store/apps/details?id=anotherappdev.countripedia&hl=en_IN",
-        "img_src": "https://i.imgur.com/hhvVEJO.jpg",
+        "img_src": "https://i.imgur.com/8wf9A1G.jpg",
         "stack": "Android"
     }
 ]

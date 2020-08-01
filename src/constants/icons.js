@@ -61,7 +61,7 @@ const Connect = () => (
 
 const ScrollDown = () => (
     <div className="scroll-down-icon">
-        <a href="/#overview">
+        <a href="#overview">
             <FontAwesomeIcon icon={("fas", "chevron-circle-down")} size="3x" />
         </a>
     </div>

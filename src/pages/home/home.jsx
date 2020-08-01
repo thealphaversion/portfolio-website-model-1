@@ -1,5 +1,5 @@
 // package imports
-import React from "react";
+import React, { useRef } from "react";
 
 // component imports
 import LandingComponent from "../../components/home/landingComponent/landingComponent";
@@ -13,7 +13,7 @@ function Home(props) {
     return (
         <div className="home-page">
             <LandingComponent></LandingComponent>
-            <Overview data={overviewData} id="#overview"></Overview>
+            <Overview data={overviewData}></Overview>
             <ProjectOverview data={projectData}></ProjectOverview>
             <ResumeOverview data={resumeData}></ResumeOverview>
             <ContactOverview></ContactOverview>

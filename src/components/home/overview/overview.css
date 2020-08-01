@@ -40,11 +40,56 @@
 }
 
 /* responsiveness */
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 480px) {
     .image-container,
     .text-container {
         width: 100%;
         flex: 100%;
+        text-align: center;
+    }
+    .content-container {
+        display: block;
+        text-align: center;
+    }
+    .overview-image {
+        max-height: 200px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-container {
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    .text-container {
+        width: 100%;
+        flex: 100%;
+        padding: 0px 10vw;
+        text-align: center;
+    }
+    .content-container {
+        display: block;
+        margin: 20px 3vw;
+        text-align: center;
+    }
+    .overview-image {
+        height: 400px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-container {
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    .text-container {
+        width: 100%;
+        flex: 100%;
+        padding: 0px 10vw;
         text-align: center;
     }
     .content-container {

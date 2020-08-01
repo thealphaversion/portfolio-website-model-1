@@ -10,3 +10,10 @@
     padding: 20px 20vw 0px 20vw;
     color: white;
 }
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+    .contact-body {
+        height: 40vh;
+    }
+}

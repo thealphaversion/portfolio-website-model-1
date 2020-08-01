@@ -1,10 +1,9 @@
 // package imports
 import React from "react";
-import { Navbar, Nav, Image } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
 function NavigationBar(props) {
-    const { ProfileImg } = props;
     return (
         <React.Fragment>
             <Navbar
@@ -13,13 +12,7 @@ function NavigationBar(props) {
                 expand="lg"
             >
                 <Navbar.Brand href="/">
-                    <Image
-                        src={ProfileImg}
-                        roundedCircle={true}
-                        className="profile-img"
-                        alt="React Bootstrap logo"
-                    />
-                    Aditya Chakraborti
+                    <div className="nav-name">Aditya Chakraborti</div>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     className="border-0"

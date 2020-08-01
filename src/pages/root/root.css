@@ -23,3 +23,25 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+    div h1 {
+        font-size: 1.87em;
+    }
+    div h2 {
+        font-size: 1.75em;
+    }
+    div h3 {
+        font-size: 1.5em;
+    }
+    div h4 {
+        font-size: 1.17em;
+    }
+    div h5 {
+        font-size: 1em;
+    }
+    div h6 {
+        font-size: 0.87em;
+    }
+}

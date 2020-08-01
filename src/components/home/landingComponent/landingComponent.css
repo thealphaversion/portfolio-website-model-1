@@ -13,7 +13,7 @@ h1 {
 /* landing banner*/
 .landing-component {
     position: relative;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
