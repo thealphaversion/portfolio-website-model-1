@@ -46,12 +46,15 @@ class ContactBody extends React.Component {
             message: this.state.message,
         };
         axios
-            .post("API_URI", data)
+            .post("http://localhost:5000/contact", data)
             .then((res) => {
                 this.setState({ sent: true }, this.resetForm());
             })
             .catch(() => {
                 console.log("Message not sent");
+                this.setState({
+                    buttonText: "Message not sent. Try again?",
+                });
             });
     };
 
@@ -105,6 +108,7 @@ class ContactBody extends React.Component {
                                         err: false,
                                     })
                                 }
+                                required
                             ></Form.Control>
                         </Form.Group>
                         <Form.Group controlId="formGroupEmail">
