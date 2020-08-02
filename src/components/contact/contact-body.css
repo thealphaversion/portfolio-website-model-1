@@ -1,14 +1,26 @@
 .message-sent {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .send-message {
     text-align: center;
-    margin: 30px 15vw 30px 15vw;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .message-sent-text {
     text-align: center;
+}
+
+/* responsiveness */
+@media screen and (max-width: 1024px) {
+    .message-sent {
+        padding-bottom: 20px;
+    }
+
+    .send-message {
+        padding-bottom: 20px;
+    }
 }

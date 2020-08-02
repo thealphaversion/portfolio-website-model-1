@@ -1,5 +1,5 @@
 .contact-body {
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -14,6 +14,9 @@
 /* responsiveness */
 @media screen and (max-width: 600px) {
     .contact-body {
-        height: 40vh;
+        height: 30vh;
+    }
+    .contact-body-form-container {
+        padding: 20px 10vw 0px 10vw;
     }
 }

@@ -48,18 +48,20 @@ function Overview(props) {
                         <h6 className="overview-text-element">{data.status}</h6>
                     </div>
                     <div>
-                        <h3>Tell us more</h3>
+                        <h3>What I've been upto lately</h3>
                         <h6 className="overview-text-element">
                             {data.description}
                         </h6>
                     </div>
                 </div>
             </div>
+            {/*
             <div className="overview-button-container">
                 <Button variant="outline-dark" href="/about">
                     {"Learn More"}
                 </Button>
             </div>
+            */}
         </React.Fragment>
     );
 }

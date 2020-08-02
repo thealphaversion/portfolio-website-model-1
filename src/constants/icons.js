@@ -74,35 +74,35 @@ const ContactMe = () => (
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
+            <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
         </a>
         <a
             href="https://github.com/thealphaversion"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+            <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
         </a>
         <a
             href="https://twitter.com/thealphaversion"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={["fab", "twitter"]} size="3x" />
+            <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
         </a>
         <a
             href="https://medium.com/@adityachakraborti14"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={["fab", "medium"]} size="3x" />
+            <FontAwesomeIcon icon={["fab", "medium"]} size="2x" />
         </a>
         <a
             href="mailto:adityachakraborti14@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
+            <FontAwesomeIcon icon={["fas", "envelope"]} size="2x" />
         </a>
     </div>
 );
