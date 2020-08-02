@@ -51,6 +51,10 @@ class ContactBody extends React.Component {
                 data
             )
             .then((res) => {
+                console.log(res.status);
+                if (res.status === 200) {
+                    console.log("sent");
+                }
                 this.setState({ sent: true }, this.resetForm());
             })
             .catch(() => {
