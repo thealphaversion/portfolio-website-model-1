@@ -5,3 +5,11 @@
 .education {
     padding-bottom: 30px;
 }
+
+/* responsiveness */
+@media screen and (max-width: 1024px) {
+    .education {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

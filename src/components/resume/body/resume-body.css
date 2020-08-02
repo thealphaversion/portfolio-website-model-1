@@ -26,10 +26,15 @@
 
 /* responsiveness */
 @media screen and (max-width: 1024px) {
-    .resume-content-heading,
+    .resume-content-heading {
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
     .resume-content-data {
         width: 100%;
         flex: 100%;
+        margin: 0px 5px 15px 5px;
         text-align: center;
     }
     .resume-content {
