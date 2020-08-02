@@ -72,7 +72,7 @@ class ContactBody extends React.Component {
     };
 
     resetBody = () => {
-        this.setState({ sent: false });
+        this.setState({ sent: false, buttonText: "Send Message" });
     };
 
     render() {

@@ -10,14 +10,16 @@ function ResumeProjects(props) {
         <div className="resume-projects">
             <h3>{projects.title}</h3>
             <h5>{projects.description}</h5>
-            <h5>Tech Stack:</h5>
-            {projects.stack.map((framework, index) => {
-                return (
-                    <h5 key={index} className="project-stack">
-                        {framework}
-                    </h5>
-                );
-            })}
+            <div className="tech-stack">
+                <h4>Tech Stack:</h4>
+                {projects.stack.map((framework, index) => {
+                    return (
+                        <h5 key={index} className="project-stack">
+                            {framework}
+                        </h5>
+                    );
+                })}
+            </div>
         </div>
     );
 }

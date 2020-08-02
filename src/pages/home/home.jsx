@@ -1,5 +1,5 @@
 // package imports
-import React, { useRef } from "react";
+import React from "react";
 
 // component imports
 import LandingComponent from "../../components/home/landingComponent/landingComponent";

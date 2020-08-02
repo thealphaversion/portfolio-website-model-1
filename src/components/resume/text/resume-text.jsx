@@ -9,7 +9,7 @@ function ResumeText() {
     return (
         <React.Fragment>
             <div className="resume-intro-text">
-                <h4>Hi, I am Aditya Chakraborti.</h4>
+                <h3>Hi, I am Aditya Chakraborti</h3>
             </div>
             <div className="resume-intro-text">
                 <h5>
@@ -23,7 +23,7 @@ function ResumeText() {
             <div className="resume-button-container">
                 <Button
                     variant="outline-dark"
-                    href="https://drive.google.com/file/d/1FLTLrqt53bxM2ud4xmazs4qWlJl5IGCk/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1zOUOehEyHplqLwOXGjuF0fhLEh2NN5Ao/view?usp=sharing"
                 >
                     {"Download Resume"}
                 </Button>

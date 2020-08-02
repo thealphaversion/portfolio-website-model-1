@@ -7,84 +7,48 @@ import React from "react";
 // css imports
 import "./skills.css";
 
-function Education(props) {
+function Skills(props) {
     const { skills } = props;
     return (
         <div className="skills">
             <div className="skill-subsection">
                 <h3>Languages</h3>
-                <ul className="skill-list">
-                    {skills.languages.map((language, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{language}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.languages.map((language, index) => {
+                    return <h4 key={index}>{language}</h4>;
+                })}
             </div>
             <div className="skill-subsection">
                 <h3>Front-end Frameworks</h3>
-                <ul className="skill-list">
-                    {skills.frontend.map((framework, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{framework}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.frontend.map((framework, index) => {
+                    return <h4 key={index}>{framework}</h4>;
+                })}
             </div>
             <div className="skill-subsection">
                 <h3>Back-end Frameworks</h3>
-                <ul className="skill-list">
-                    {skills.backend.map((framework, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{framework}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.backend.map((framework, index) => {
+                    return <h4 key={index}>{framework}</h4>;
+                })}
             </div>
             <div className="skill-subsection">
                 <h3>Databases</h3>
-                <ul className="skill-list">
-                    {skills.databases.map((database, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{database}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.databases.map((database, index) => {
+                    return <h4 key={index}>{database}</h4>;
+                })}
             </div>
             <div className="skill-subsection">
                 <h3>Version Control</h3>
-                <ul className="skill-list">
-                    {skills.vcs.map((system, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{system}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.vcs.map((system, index) => {
+                    return <h4 key={index}>{system}</h4>;
+                })}
             </div>
             <div className="skill-subsection">
                 <h3>Cloud Platforms</h3>
-                <ul className="skill-list">
-                    {skills.cloud.map((platform, index) => {
-                        return (
-                            <li key={index}>
-                                <h4>{platform}</h4>
-                            </li>
-                        );
-                    })}
-                </ul>
+                {skills.cloud.map((platform, index) => {
+                    return <h4 key={index}>{platform}</h4>;
+                })}
             </div>
         </div>
     );
 }
 
-export default Education;
+export default Skills;

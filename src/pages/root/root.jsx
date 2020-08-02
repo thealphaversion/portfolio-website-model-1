@@ -13,8 +13,6 @@ import Contact from "../contact/contact";
 import Footer from "../../components/footer/footer";
 
 // data imports
-import aboutData from "../../data/about";
-import contactData from "../../data/contact";
 import projectData from "../../data/projects/project-data.json";
 import overviewData from "../../data/about/overview.json";
 import resumeData from "../../data/resume/resume-data.json";
@@ -36,8 +34,6 @@ class Root extends React.Component {
                 { title: "About", path: "/about" },
                 { title: "Contact", path: "/contact" },
             ],
-            aboutData,
-            contactData,
         };
     }
 
