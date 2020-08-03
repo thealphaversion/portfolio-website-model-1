@@ -2,6 +2,10 @@
     "who": "I am a software developer who’s recently graduated with a bachelors degree in computer engineering.",
     "objective": "I want to build inspiring products with passionate, amazing people.",
     "status": "Currently Freelancing, Open to Work",
-    "description": "I spent the past year working at WARDROBE, where I built the WARDROBE app from the ground up. It gave me a very enritching experience about developing software in the industry. Currently utilizing this knowledge to make my freelance clients very happy.",
+    "description": [
+        "I spent the past year working at WARDROBE, where I built the WARDROBE app from the ground up.",
+        "It gave me a very enriching experience about developing software in the industry.",
+        "Currently utilizing this knowledge to make my freelance clients very happy."
+    ],
     "img_url": "https://i.imgur.com/Rbvoqbf.jpg"
 }

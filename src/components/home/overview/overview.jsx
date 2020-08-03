@@ -49,9 +49,16 @@ function Overview(props) {
                     </div>
                     <div>
                         <h3>What I've been upto lately</h3>
-                        <h6 className="overview-text-element">
-                            {data.description}
-                        </h6>
+                        {data.description.map((description_data, index) => {
+                            return (
+                                <h6
+                                    key={index}
+                                    className="overview-text-element"
+                                >
+                                    {description_data}
+                                </h6>
+                            );
+                        })}
                     </div>
                 </div>
             </div>

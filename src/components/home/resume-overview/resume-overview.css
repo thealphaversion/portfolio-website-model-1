@@ -32,14 +32,26 @@
     margin: 20px 5px;
 }
 
+.resume-home-content-data {
+    flex: 70%;
+    text-align: justify;
+    margin: 0px 5px;
+}
+
 .resume-projects-button-container {
     text-align: center;
     margin: 0px 15vw 30px 15vw;
 }
 
+.experience-stack-home {
+    display: inline-block;
+    margin-right: 20px;
+}
+
 /* responsiveness */
 @media screen and (max-width: 1024px) {
     .resume-content-heading,
+    .resume-home-content-data,
     .resume-content-data {
         width: 100%;
         flex: 100%;

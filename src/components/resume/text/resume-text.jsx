@@ -5,6 +5,9 @@ import { Button } from "react-bootstrap";
 // css imports
 import "./resume-text.css";
 
+// load assets
+import resume_pdf from "../../../assets/aditya_chakraborti.pdf";
+
 function ResumeText() {
     return (
         <React.Fragment>
@@ -21,12 +24,9 @@ function ResumeText() {
                 <h5>This page is my resume, please have a look.</h5>
             </div>
             <div className="resume-button-container">
-                <Button
-                    variant="outline-dark"
-                    href="https://drive.google.com/file/d/1zOUOehEyHplqLwOXGjuF0fhLEh2NN5Ao/view?usp=sharing"
-                >
-                    {"Download Resume"}
-                </Button>
+                <a href={resume_pdf} download="Aditya_Charkraborti_Resume">
+                    <Button variant="outline-dark">{"Download Resume"}</Button>
+                </a>
             </div>
             <div className="resume-intro-text">
                 <h3>. . .</h3>

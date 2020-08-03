@@ -63,7 +63,10 @@ function ResumeOverview(props) {
                     <div className="resume-content-data">
                         {skills_minified.map((skill, index) => {
                             return (
-                                <div key={index} className="experience-stack">
+                                <div
+                                    key={index}
+                                    className="experience-stack-home"
+                                >
                                     <h5 key={index}>{skill}</h5>
                                 </div>
                             );
@@ -75,7 +78,7 @@ function ResumeOverview(props) {
                     <div className="resume-content-heading">
                         <ResumeHeading title={"LATEST PROJECT"}></ResumeHeading>
                     </div>
-                    <div className="resume-content-data">
+                    <div className="resume-home-content-data">
                         <ResumeProjects projects={projects[0]}></ResumeProjects>
                     </div>
                 </div>

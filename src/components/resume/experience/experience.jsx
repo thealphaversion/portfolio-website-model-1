@@ -10,12 +10,12 @@ function Experience(props) {
         <div className="resume-experience">
             <h3>{experience.company}</h3>
             {experience.company === undefined ? (
-                <h3>
-                    {experience.title} - <i>{experience.type}</i>
-                </h3>
+                <h3>{experience.title}</h3>
             ) : (
                 <h4>
-                    {experience.title} - <i>{experience.type}</i>
+                    <i>
+                        {experience.title} - {experience.type}
+                    </i>
                 </h4>
             )}
             <h6>{experience.timeline}</h6>
@@ -26,9 +26,6 @@ function Experience(props) {
                     </div>
                 );
             })}
-            <div>
-                <h5>Tech Stack:</h5>
-            </div>
             {experience.stack.map((framework, index) => {
                 return (
                     <div key={index} className="experience-stack">
