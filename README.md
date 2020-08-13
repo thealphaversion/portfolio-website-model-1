@@ -24,6 +24,9 @@ this is a two step process (unless we have the same name :joy:)
 ### 5. Update contact links
 make changes to the github, linkedin, twitter and medium links by changing the links in `/src/data/social/social.json`.
     
+### 6. Update favicon (or not :joy:)
+replace favicon in `/public`.
+
 
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
