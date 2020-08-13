@@ -11,7 +11,6 @@
 # production
 /build
 .env
-.firebaserc
 
 # misc
 .DS_Store
@@ -26,3 +25,4 @@ yarn-error.log*
 
 # firebase
 /.firebase
+.firebaserc
