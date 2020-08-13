@@ -22,7 +22,7 @@ import "./root.css";
 
 // service imports
 import history from "../../services/history";
-import assets from "../../services/assets.json";
+import assets from "../../data/assets/assets.json";
 
 class Root extends React.Component {
     constructor(props) {

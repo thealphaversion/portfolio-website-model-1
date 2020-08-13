@@ -6,13 +6,13 @@ import { Container, Image } from "react-bootstrap";
 import { Connect, ScrollDown } from "../../../constants/icons";
 
 // css imports
-import "./landingComponent.css";
+import "./landing-component.css";
 
 // asset imports
 import LandingVideo from "../../../assets/landing-video-code-blur.mp4";
 
 // service imports
-import assets from "../../../services/assets.json";
+import assets from "../../../data/assets/assets.json";
 
 function LandingComponent(props) {
     const { profile_img } = assets;

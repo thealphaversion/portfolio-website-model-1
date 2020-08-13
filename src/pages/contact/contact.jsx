@@ -10,7 +10,7 @@ import ContactBody from "../../components/contact/contact-body";
 import "./contact.css";
 
 // service imports
-import assets from "../../services/assets.json";
+import assets from "../../data/assets/assets.json";
 
 function Contact(props) {
     const { contact_header } = assets;

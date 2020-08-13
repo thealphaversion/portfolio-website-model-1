@@ -12,7 +12,7 @@ import PreFooter from "../../components/projects/pre-footer/pre-footer";
 import "./project-style.css";
 
 // service imports
-import assets from "../../services/assets.json";
+import assets from "../../data/assets/assets.json";
 
 function Projects(props) {
     const { projects_header } = assets;

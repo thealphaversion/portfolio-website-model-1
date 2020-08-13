@@ -8,6 +8,9 @@ import "./resume-text.css";
 // load assets
 import resume_pdf from "../../../assets/aditya_chakraborti.pdf";
 
+// import data
+import { filename } from "../../../data/resume/resume-file-name.json";
+
 function ResumeText() {
     return (
         <React.Fragment>
@@ -24,7 +27,7 @@ function ResumeText() {
                 <h5>This page is my resume, please have a look.</h5>
             </div>
             <div className="resume-button-container">
-                <a href={resume_pdf} download="Aditya_Charkraborti_Resume">
+                <a href={resume_pdf} download={filename}>
                     <Button variant="outline-dark">{"Download Resume"}</Button>
                 </a>
             </div>

@@ -7,7 +7,7 @@ import ResumeBody from "../../components/resume/body/resume-body";
 import ResumeText from "../../components/resume/text/resume-text";
 
 // service imports
-import assets from "../../services/assets.json";
+import assets from "../../data/assets/assets.json";
 
 function Resume(props) {
     const { resume_header } = assets;

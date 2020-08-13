@@ -2,7 +2,7 @@
 import React from "react";
 
 // component imports
-import LandingComponent from "../../components/home/landingComponent/landingComponent";
+import LandingComponent from "../../components/home/landing-component/landing-component";
 import Overview from "../../components/home/overview/overview";
 import ProjectOverview from "../../components/home/project-overview/project-overview";
 import ResumeOverview from "../../components/home/resume-overview/resume-overview";

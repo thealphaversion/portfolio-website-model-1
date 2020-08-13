@@ -1,6 +1,5 @@
 // package imports
 import React from "react";
-import { Button } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
 // css imports
