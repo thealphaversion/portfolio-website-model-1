@@ -46,10 +46,7 @@ class ContactBody extends React.Component {
             message: this.state.message,
         };
         axios
-            .post(
-                "https://thealphaversion-website-server.herokuapp.com/contact",
-                data
-            )
+            .post(process.env.REACT_APP_API_ENDPOINT, data)
             .then((res) => {
                 console.log(res.status);
                 if (res.status === 200) {
