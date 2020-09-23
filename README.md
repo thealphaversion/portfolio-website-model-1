@@ -1,6 +1,7 @@
 # :a: My Portfolio Website [:link:](https://adityac.tech/)
 
 I built this for my personal portfolio. Feel free to use it, make sure to update your data and star this repository :star2:
+Built with react.js. All contributions welcome.
 
 ## Update data :wave:
 
@@ -24,6 +25,9 @@ this is a two step process (unless we have the same name :joy:)
 ### 5. Update contact links
 make changes to the github, linkedin, twitter and medium links by changing the links in `/src/data/social/social.json`.
     
+### 6. Update favicon (or not :joy:)
+replace favicon in `/public`.
+
 
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
