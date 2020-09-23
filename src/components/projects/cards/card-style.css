@@ -1,7 +1,15 @@
 /* the content part */
-.long {
+.long-left {
     flex: 65%;
-    margin: 30px 40px 20px 40px;
+    margin: 0px 0px 0px 40px;
+    color: white;
+    text-align: justify;
+}
+
+/* the content part */
+.long-right {
+    flex: 65%;
+    margin: 0px 40px 0px 0px;
     color: white;
     text-align: justify;
 }
@@ -13,7 +21,7 @@
 
 /* the project card */
 .project-container {
-    padding: 20px 10vw 20px 10vw;
+    padding: 50px 10vw 50px 10vw;
     border-radius: 12px;
     display: flex;
 }

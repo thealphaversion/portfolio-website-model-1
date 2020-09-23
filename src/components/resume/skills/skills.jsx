@@ -35,12 +35,14 @@ function Skills(props) {
                     return <h4 key={index}>{database}</h4>;
                 })}
             </div>
+            {/*
             <div className="skill-subsection">
                 <h3>Version Control</h3>
                 {skills.vcs.map((system, index) => {
                     return <h4 key={index}>{system}</h4>;
                 })}
             </div>
+            */}
             <div className="skill-subsection">
                 <h3>Cloud Platforms</h3>
                 {skills.cloud.map((platform, index) => {

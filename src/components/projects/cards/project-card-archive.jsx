@@ -15,7 +15,7 @@ const leftOriented = (text, period, title, image, stack, link) => {
                         alt={title + " image"}
                     ></img>
                 </div>
-                <div className="long">
+                <div className="long-left">
                     <div>
                         <h2 className="title">{title}</h2>
                         <p className="period">{period}</p>
@@ -39,7 +39,7 @@ const rightOriented = (text, period, title, image, stack, link) => {
     return (
         <React.Fragment>
             <div className="project-container">
-                <div className="long">
+                <div className="long-right">
                     <div>
                         <h2 className="title">{title}</h2>
                         <p className="period">{period}</p>
