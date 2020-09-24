@@ -14,7 +14,7 @@ function ProjectText() {
                 </h5>
             </div>
             <div className="intro-text">
-                <h5>Chech them out here!</h5>
+                <h5>Check them out here!</h5>
             </div>
             <div className="intro-text">
                 <h3>. . .</h3>
