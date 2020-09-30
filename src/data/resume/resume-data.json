@@ -21,9 +21,10 @@
         {
             "title": "Freelance Software Engineer",
             "type": "Freelance",
-            "timeline": "March 2020 - Present",
+            "timeline": "March 2020 - September 2020",
             "description": [
-                "Built a mobile app called SmartSeva for the aid of the elderly for my first client, where I proactively worked to exceed my client’s expectations."
+                "Built a mobile app called SmartSeva for the aid of the elderly for my first client, where I proactively worked to exceed my client’s expectations.",
+                "Built the ​Impetusutra​ app to help my client onboard customers and give them an ecosystem to connect better with the company."
             ],
             "stack": ["Flutter", "Firebase", "Node.js"]
         },
