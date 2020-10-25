@@ -15,7 +15,7 @@ function ContactOverview() {
                 <h1>Contact Me</h1>
                 <ContactMe></ContactMe>
             </div>
-            <div className="more-projects">
+            <div className="send-message-overview">
                 <Button variant="outline-light" href="/contact">
                     {"Send a message"}
                 </Button>

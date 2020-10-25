@@ -1,11 +1,12 @@
 {
-    "who": "I am a software developer who’s recently graduated with a bachelors degree in computer engineering.",
+    "who": "I am a software developer who’s recently graduated with a bachelors degree in computer engineering. I freelanced for a little while and am now working as a fulltime frontend engineer.",
     "objective": "I want to build inspiring products with passionate, amazing people.",
-    "status": "Currently looking for software engineering roles.",
+    "status": "Currently working at UniAcco as a Frontend Engineer.",
     "description": [
         "I spent the past year working at WARDROBE, where I built the WARDROBE app from the ground up.",
         "It gave me a very enriching experience about developing software in the industry, that has come in handy when I was freelancing.",
-        "Now I want to work for a vision, long term and learn and grow as a software developer at a company that builds awesome products."
+        "Now I am working for a vision, long term and in the process of learning and growing as a software developer.",
+        "On the side, I am working on an open-source project, Shorthands, that is a service to help new recurits navigate company specific terms and acronyms."
     ],
     "img_url": "https://i.imgur.com/Rbvoqbf.jpg"
 }

@@ -11,13 +11,24 @@
     ],
     "skills": {
         "languages": ["Dart, Javascript, Java, Python"],
-        "frontend": ["Flutter, React.js"],
-        "backend": ["Node.js, Firebase, Flask"],
-        "databases": ["MongoDB, MySQL"],
+        "frontend": ["Flutter, React.js, Next.js"],
+        "backend": ["Node.js, Firebase, Flask, Django"],
+        "databases": ["MongoDB, MariaDB"],
         "vcs": ["git"],
         "cloud": ["Heroku, Google Cloud Platform"]
     },
     "experience": [
+        {
+            "company": "UniAcco",
+            "title": "Frontend Engineer",
+            "type": "Full Time",
+            "timeline": "October 2020 - Present",
+            "description": [
+                "Currently working on building and laying down the foundations of the UniCreds web platform.",
+                "Occasionally delve across the stack to build REST APIs that are central to the functioning of the web platform."
+            ],
+            "stack": ["React", "Next.js", "Python", "Django"]
+        },
         {
             "title": "Freelance Software Engineer",
             "type": "Freelance",
@@ -29,7 +40,7 @@
             "stack": ["Flutter", "Firebase", "Node.js"]
         },
         {
-            "company": "Wardrobe Global Pvt. Ltd",
+            "company": "Wardrobe",
             "title": "Software Engineer",
             "type": "Contract",
             "timeline": "May 2019 - May 2020",
@@ -98,5 +109,5 @@
         "Served as the Head of Technology at Model United Nations Society, MPSTME.",
         "I love football and I was a first-team player for my school football team."
     ],
-    "skills_minified": ["Flutter", "React.js", "Node.js", "MongoDB", "Firebase"]
+    "skills_minified": ["Flutter", "React.js", "Next.js", "Node.js", "MongoDB", "MariaDB", "Firebase"]
 }

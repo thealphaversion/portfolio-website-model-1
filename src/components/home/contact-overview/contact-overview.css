@@ -5,3 +5,9 @@
     margin: 0px;
     padding-top: 50px;
 }
+
+.send-message-overview {
+    text-align: center;
+    margin: 0 15vw;
+    padding: 20px 0px 50px 0px;
+}
