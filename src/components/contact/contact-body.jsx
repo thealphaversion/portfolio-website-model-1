@@ -45,8 +45,14 @@ class ContactBody extends React.Component {
             email: this.state.email,
             message: this.state.message,
         };
+
+        let url = process.env.REACT_APP_API_ENDPOINT;
+        if (process.env.NODE_ENV === "development") {
+            url = process.env.REACT_APP_DEV_ENDPOINT;
+        }
+
         axios
-            .post(process.env.REACT_APP_API_ENDPOINT, data)
+            .post(url, data)
             .then((res) => {
                 console.log(res.status);
                 if (res.status === 200) {
