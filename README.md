@@ -28,6 +28,28 @@ make changes to the github, linkedin, twitter and medium links by changing the l
 ### 6. Update favicon (or not :joy:)
 replace favicon in `/public`.
 
+### 7. Add or remove other external navigation links
+the `/src/data/links/links.json` file is used to display extra external navigation links in the navigation bar.
+
+```
+data structure
+{
+  "links": [                                                    - The array of link objects - Can be an empty array.
+    {
+      "title": "Timeline",                                      - The label for the link
+      "url": "https://timeline.adityachakraborti.com",          - The url of the link
+      "target": "_blank"                                        - Optional: The target, or where we want to display the link
+    }
+  ]
+}
+```
+you can have an empty array of links if you do not have any links to list on the navigation bar
+```
+{
+  "links": []
+}
+```
+
 
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
