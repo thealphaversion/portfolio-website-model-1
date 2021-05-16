@@ -1,7 +1,10 @@
-// package imports
+// Package imports
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
+
+// Data imports
+import linkData from "../../data/links/links.json";
 
 function NavigationBar(props) {
     return (
@@ -23,6 +26,9 @@ function NavigationBar(props) {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>
                         <Nav.Link href="/resume">Resume</Nav.Link>
+                        {linkData.links && linkData.links.map((link, index) => {
+                            return <Nav.Link key={index} href={link.url} target={link.target}>{link.title}</Nav.Link>
+                        })}
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
