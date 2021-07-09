@@ -1,4 +1,4 @@
-# :a: My Portfolio Website [:link:](https://adityac.tech/)
+# :a: My Portfolio Website [:link:](https://adityachakraborti.com/)
 
 I built this for my personal portfolio. Feel free to use it, make sure to update your data and star this repository :star2:
 Built with react.js. All contributions welcome.
