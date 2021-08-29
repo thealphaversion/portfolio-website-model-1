@@ -10,22 +10,34 @@
         }
     ],
     "skills": {
-        "languages": ["Dart, Javascript, Java, Python"],
+        "languages": ["Javascript, Typescript, Python, Dart, Java"],
         "frontend": ["Flutter, React.js, Next.js"],
         "backend": ["Node.js, Firebase, Flask, Django"],
         "databases": ["MongoDB, MariaDB"],
         "vcs": ["git"],
-        "cloud": ["Heroku, Google Cloud Platform"]
+        "cloud": ["Heroku, AWS"]
     },
     "experience": [
         {
             "company": "UniAcco",
+            "title": "Lead Fullstack Engineer",
+            "type": "Full Time",
+            "timeline": "June 2021 - Present",
+            "description": [
+                "Laying foundations and architecting internal projects.",
+                "Setting up processes to efficiently handle different parts of the system as we scale."
+            ],
+            "stack": ["React", "Next.js", "Python", "Django", "AWS"]
+        },
+        {
+            "company": "UniAcco",
             "title": "Frontend Engineer",
             "type": "Full Time",
-            "timeline": "October 2020 - Present",
+            "timeline": "October 2020 - May 2021",
             "description": [
-                "Currently working on building and laying down the foundations of the UniCreds web platform.",
-                "Occasionally delve across the stack to build REST APIs that are central to the functioning of the web platform."
+                "Laid the foundations of the UniCreds and UniScholarz web platform.",
+                "Improved the UniAcco web platform that saw us jump high up in google search results and the general user experience on the site.",
+                "Switched across the stack to build REST APIs that are central to the functioning of the web platform."
             ],
             "stack": ["React", "Next.js", "Python", "Django"]
         },
@@ -34,8 +46,7 @@
             "type": "Freelance",
             "timeline": "March 2020 - September 2020",
             "description": [
-                "Built a mobile app called SmartSeva for the aid of the elderly for my first client, where I proactively worked to exceed my client’s expectations.",
-                "Built the ​Impetusutra​ app to help my client onboard customers and give them an ecosystem to connect better with the company."
+                "Helped clients onboard customers and give them an ecosystem to connect better with the company, always exceeding expectations."
             ],
             "stack": ["Flutter", "Firebase", "Node.js"]
         },
@@ -45,7 +56,6 @@
             "type": "Contract",
             "timeline": "May 2019 - May 2020",
             "description": [
-                "Worked across the stack, building a social platform for fashion enthusiasts, influencers, and people in need of fashion inspiration.",
                 "Designed, planned, and developed the WARDROBE app from the ground up, mostly working on the front end of the cross-platform app with Flutter, handling API calls, transitions, routing, and providing an intuitive user experience."
             ],
             "stack": ["Flutter", "Firebase"]
@@ -64,7 +74,7 @@
     "projects": [
         {
             "title": "QuickGrab",
-            "description": "QuickGrab tries to help and promote the effective practice of social distancing by allowing people to go to shops in slots. It gives local shops an online presence by providing a platform for them to serve customers without the need for excessive logistics.",
+            "description": "An app to help and promote the effective practice of social distancing by giving people a way to schedule their visits to shops and gives local shops an online presence by providing a platform for them to serve customers without the need for excessive logistics.",
             "stack": ["Flutter", "Firebase"]
         },
         {
