@@ -23,6 +23,7 @@ import "./root.css";
 // service imports
 import history from "../../services/history";
 import assets from "../../data/assets/assets.json";
+import { googleAnalytics } from "../../services/google-analytics";
 
 class Root extends React.Component {
     constructor(props) {
@@ -35,6 +36,10 @@ class Root extends React.Component {
                 { title: "Contact", path: "/contact" },
             ],
         };
+    }
+
+    componentDidMount() {
+        googleAnalytics();
     }
 
     render() {
